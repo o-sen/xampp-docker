@@ -1,7 +1,7 @@
 # Build with:
-# 	docker build -t cswl/xampp .
+# 	docker build -t xampp:latest  .
 
-FROM ubuntu:18.04
+FROM debian:buster
 
 ENV TERM=xterm
 
@@ -9,12 +9,11 @@ ENV TERM=xterm
 RUN apt-get update && \
  apt install -yq curl net-tools psmisc
 
-# Download the installer (7.2.12)
 RUN XAMPP_DL_LINK=' \
-	https://downloadsapachefriends.global.ssl.fastly.net/7.2.12/xampp-linux-x64-7.2.12-0-installer.run?from_af=true \
+	https://downloadsapachefriends.global.ssl.fastly.net/7.3.5/xampp-linux-x64-7.3.5-0-installer.run?from_af=true \
 	' \ 
 	&& curl -L -o xampp-linux-installer.run $XAMPP_DL_LINK
-
+	
 # Run the installer in Unattended mode
 # Currently there is a bug which doesnt show progress
 RUN chmod 755 xampp-linux-installer.run
@@ -50,5 +49,3 @@ RUN chmod 777 /usr/local/bin/init.sh
 
 # Start the init script
 ENTRYPOINT ["/usr/local/bin/init.sh"]
-
-
