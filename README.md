@@ -53,4 +53,4 @@ The scripts and Dockerfile are licensed under the GPL-3.0 license.
 
 The Dockerfile was made with refrences from :
 
-[cswl/docker-xampp](https://github.com/cswl/xampp-docker) unlicenced and [tomsik68/docker-xampp](https://github.com/tomsik68/docker-xampp) unlicensed and [fuyuanli/Dockerfile-XAMPP](https://github.com/fuyuanli/Dockerfile-XAMPP) which is licensed under GPL v3.0.
+[cswl/docker-xampp](https://github.com/cswl/xampp-docker) which is licensed under GPL v3.0 and [tomsik68/docker-xampp](https://github.com/tomsik68/docker-xampp) unlicensed and [fuyuanli/Dockerfile-XAMPP](https://github.com/fuyuanli/Dockerfile-XAMPP) which is licensed under GPL v3.0.
