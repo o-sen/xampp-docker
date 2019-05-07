@@ -1,4 +1,4 @@
 #!/bin/sh
 
-docker build -t cswl/xampp:latest .
-docker tag cswl/xampp:latest  cswl/xampp:7.2.12
+docker build -t xampp:latest .
+docker tag xampp:latest  xampp:7.3.5
