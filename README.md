@@ -38,13 +38,13 @@ You can directly modify httpd and other stuffs from container.
 First, clone this project.
 
 ```
-$ git clone https://github.com/cswl/xampp-docker.git
+$ git clone https://github.com/o-sen/xampp-docker.git
 ```
 
-Second, change directory to the just now cloned repository.
+Second, change the working directory to the just now cloned repository.
 
 ```
-$ docker build -t cswl/xampp .
+$ ./build.sh
 ```
 
 ## License
