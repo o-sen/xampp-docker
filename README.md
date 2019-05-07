@@ -1,22 +1,13 @@
 ## xampp-docker
 
-Docker image containg Ubuntu 18.04 and the latest XAMPP 7.2.12.
+Docker image containg Debian/buster and the latest XAMPP 7.3.5.
 
 Note: This image was built for development purposes.
 
-## Getting the image:
-
-The image has been pushed to [Dockerhub](https://hub.docker.com/r/cswl/xampp/)  
-So you can just:
-
-```
-docker pull cswl/xampp
-```
 
 ## Running the image:
 
-For convience, an startup script is provided.  
-[Download](https://github.com/cswl/xampp-docker/raw/master/xampp-docker.sh)
+For convience, an startup script is provided : xampp-docker.sh
 
 ```
 xampp-docker 
