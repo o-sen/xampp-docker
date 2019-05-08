@@ -7,13 +7,12 @@ Note: This image was built for development purposes.
 
 ## Running the image:
 
-For convience, an startup script is provided : xampp-docker.sh
+For convience, a startup script is provided : xampp-docker.sh
 
 ```
 xampp-docker.sh
-    without arguments will launch xampp-docker and drop a bash shell : see below
-    First execution : create a container named  '$CONTAINER_NAME' with X11 display on host"
-    Subequent executions : start the container named : '$CONTAINER_NAME'"
+    without arguments at first execution : create a container named  '$CONTAINER_NAME' with X11 display on host"
+    without arguments at subequent executions : start the container named : '$CONTAINER_NAME'"
     
 
 xampp-docker.sh stop
@@ -56,4 +55,4 @@ The scripts and Dockerfile are licensed under the GPL-3.0 license.
 
 The Dockerfile was made with refrences from :
 
-[cswl/xampp-docker](https://github.com/cswl/xampp-docker) which is licensed under GPL v3.0 and [tomsik68/docker-xampp](https://github.com/tomsik68/docker-xampp) unlicensed and [fuyuanli/Dockerfile-XAMPP](https://github.com/fuyuanli/Dockerfile-XAMPP) which is licensed under GPL v3.0.
+[cswl/xampp-docker](https://github.com/cswl/xampp-docker) which is licensed under GPL v3.0
