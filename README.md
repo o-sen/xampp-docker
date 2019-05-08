@@ -10,13 +10,16 @@ Note: This image was built for development purposes.
 For convience, an startup script is provided : xampp-docker.sh
 
 ```
-xampp-docker 
-    without arguments will launch xampp-docker and drop a bash shell
+xampp-docker.sh
+    without arguments will launch xampp-docker and drop a bash shell : see below
+    First execution : create a container named  '$CONTAINER_NAME' with X11 display on host"
+    Subequent executions : start the container named : '$CONTAINER_NAME'"
+    
 
-xampp-docker stop
+xampp-docker.sh stop
     stops the running docker container
 
-xampp-docker commands
+xampp-docker.sh commands
     run a one-off command in specified Docker container
 ```
 
